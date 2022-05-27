@@ -1,0 +1,50 @@
+Aprendendo uma aplicação console: Nada mais é que um aplicativo qeu vai ser	|
+via algum termina, como o próprio cmd.						|
+Primeiros passos para a criação é usando o comando padrão "donet new console"	|
+caso queira uma ajuda sobre o que cada comando faz é só add "--h" depois do	|
+cosole. "dotnet new concole -n AulaDio", esse comando cria um arquivo com o	|
+nome escolhido após o -n, dentro desta pasta tem artefatos que ele vai utilizar	|
+na hora da execução. Logo em seguida use o comando "code ." que é utilizado	|
+para abrir a pasta que você já está dentro, e trarzer o conteudo para dentro	|
+do VisualCode. Comandos que usamos bastante é o "dotnet restore" que atualiza	|
+os pacotes, o "dotnet build" que tambem restaua só que ele pega o código fonte	|
+e compila e o "dotnet run" que simplesmente faz o código rodar.			|
+================================================================================|
+O que é o C#: Foi criada na década de 90 por Anders Hejlsberg, e é uma das 	|
+principais linguagens do .NET, o C# é uma linguagem orientada a objeto e tipada	|
+ela é similar a C, C++ e java, suporta conceitos de encapsulamento, herança e	|
+polimorfismo, são executados no odtnet q inclui o CLR(COMMON LANGUAGE RUNTIME)	|
+e um conjunto unificado de bibliotecas e classes. e atualmente um compilador	|
+do C# é o ROSLYN.								|
+O C# é compilado em uma linguagem intermediaria(IL), e o código e os recursos IL|
+são armazendados no disco em um arquivo executavel conhecido como assembly 	|
+geralmente em uma extensão .exe ou .dll.					|
+Quando executado o assembly é carregado no CLR, em seguida o CLR executará o 	|
+chamado JSUT IN TIME(JIT) para converter o código IL em instruções de máquina	|
+nativas. O CLR tem outros tipos de servico como o "garbage collector" que serve	|
+para coletar o lixo, desaloca objetos na memoria que não estão sendo utilizados,|
+tem o "exception handler" que recebe e controla as exceções que ocorrem de erros|
+no nosso código, e um gerenciador de recursos que é o "Resources Manager"	|
+================================================================================|
+Os principais conceitos organizacionais em C# são programas que consistem em um	|
+ou mais arquivos, eles declaram tipos que contêm membros e podem ser organizados|
+namespaces...Classes e interfaces são exemplos de tipos e campos, métodos,	|
+propriedades e eventos são exemplos e membros.					|
+Tipos de váriaveis: Váriavel do tipo valor ela separa um espaço na memoria	|
+e os seus dados ficam nesse mesmo espaço, então cada váriavel tem sua propria	|
+copia...Algumas delas são do tipo numerico que é sbyt, short, int, long, byte,	|
+ushort, uint, ulong. já um caractere unicode é o char, para pontos flutuantes	|
+temos o float, double, decimal e booleano é o bool.				|
+e o outro tipo é o de referencia elas só guaradam as referências do dados, elas	|
+não são fixas, elas só estão apontando pra algo, então podemos usar 2 variaveis	|
+de referência para 1 único dado e consequentemente se mudarmos uma delas o valor|
+de ambas mudará.								|
+Ações de um programa sao expressas usando instruções...abre-se um bloco com "{}"|
+e este bloco permite que várias intruções sejam escritas em contextos. E algumas|
+declarações de variáveis e constantes locais, são elas if, switch que são	|
+instruçõse de condicionais, temos tambem funções de repetição o while, do. for,	|
+foreach são algumas delas e temos as instruções de auxilio para todas essas 	|
+funções qeu são break, continue, return e instruções de exceção que aqui é o 	|
+throw, try, catch, finally...a instrução de using que serve para importamos	|
+referências de namespace ou pacotes dentro de uma classe.			|
+ 
